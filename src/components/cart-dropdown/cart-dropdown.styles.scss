@@ -11,6 +11,10 @@
   right: 40px;
   z-index: 5;
 
+  .empty-message {
+    font-size: 18px;
+    margin: 50px auto;
+  }
   .cart-items {
     height: 300px;
     display: flex;
@@ -19,6 +23,7 @@
     overflow: scroll; /* Hide scrollbars */
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
+    margin-bottom: 5px;
   }
   .cart-items::-webkit-scrollbar {
     display: none;
